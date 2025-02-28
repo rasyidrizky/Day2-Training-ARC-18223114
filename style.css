@@ -1,9 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif; 
     margin: 20px;
     text-align: center;
-    background-color: #f4f4f4;
+    background-image: url('visual/background.jpg');
 }
+
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.07) inset;
+    height: 100px;
+    border-radius: 8px;
+    outline-color: rgb(220, 220, 220);
+    outline-style: outset;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000; color: white;
+    font-size: 50px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -14,11 +31,13 @@ body {
 .card {
     display: flex;
     align-items: center;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     padding: 10px;
     width: 400px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    outline-color: rgb(220, 220, 220);
+    outline-style: outset;
 }
 .card img {
     width: 120px;

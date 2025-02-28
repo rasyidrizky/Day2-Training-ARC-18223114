@@ -11,9 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     <img src="${product.thumbnail}" alt="${product.title}">
                     <div class="card-content">
                         <h3>${product.title}</h3>
+                        <p>${product.brand}</p>
                         <p>${product.description}</p>
-                        <p><strong>Harga:</strong> $${product.price}</p>
-                        <p><strong>Rating:</strong> ${product.rating} ⭐</p>
+                        <p style="font-size: 30px; color: green"><strong>$${product.price}</strong></p>
+                        <p style="font-size: 20px;"><strong>${product.rating}</strong> ⭐</p>
+                        <p class="additional-info"><strong>Category:</strong> ${product.category}</p>
+                        <p class="additional-info"><strong>Stock:</strong> ${product.stock} left(s)</p>
                     </div>
                 `;
                 container.appendChild(productCard);
