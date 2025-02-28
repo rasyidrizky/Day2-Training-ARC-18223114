@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 productCard.innerHTML = `
                     <img src="${product.thumbnail}" alt="${product.title}">
                     <div class="card-content">
-                        <h3>${product.title}</h3>
-                        <p>${product.brand}</p>
+                        <h3 style="font-size: 30px;">${product.title}</h3>
+                        <p style="font-size: 18px;"><strong>${product.brand}</strong></p>
                         <p>${product.description}</p>
                         <p style="font-size: 30px; color: green"><strong>$${product.price}</strong></p>
                         <p style="font-size: 20px;"><strong>${product.rating}</strong> ⭐</p>
